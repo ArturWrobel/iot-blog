@@ -2,7 +2,11 @@
 title: "Ohh boy!"
 date: 2020-09-10 22:10:00
 author: "Robert Why"
-path: "/third-post"
+image: ../../images/fingerprint.jpg
+tags:
+- raw
+- frontend
+- design
 ---
 
 Welcome Friends!

@@ -17,7 +17,7 @@ const Header = (props) => {
 
   return (
     <div>
-      <Navbar fixed = "top" light expand="sm">
+      <Navbar fixed = "top" light expand="lg">
         <div className = "container">
           <NavbarBrand href="/">{props.siteTitle}</NavbarBrand>
         <NavbarToggler onClick={toggle} />

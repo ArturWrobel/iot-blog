@@ -2,7 +2,11 @@
 title: "Let's go!"
 date: 2020-09-06 15:00:05
 author: "Zbigniew Tarkowski"
-path: "/second-post"
+image: ../../images/keyboard.jpg
+tags:
+- code
+- cooking
+
 ---
 
 Welcome Friends!

@@ -2,7 +2,10 @@
 title: "Introduction"
 date: 2020-09-03 07:10:00
 author: "Zenon Bujak"
-path: "/first-post"
+image: ../../images/abstract.jpg
+tags:
+- code
+- design
 ---
 
 Welcome Friends!
