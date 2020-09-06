@@ -61,8 +61,7 @@ export default function SinglePost({ data, pageContext }) {
                             </a>
                         </li>
                         <li>
-                            <a href={"https://twitter.com/share?url=" + baseUrl + pageContext.slug + "&text=" + post.title + 
-                            "&via" + "twitterHandle"}
+                            <a href={`https://twitter.com/share?url=${baseUrl}${pageContext.slug}&text=${post.title}&viatwitterHandle`}
                             className="twitter" target="_blank" rel="noopener noreferrer">
                                 <i className="fab fa-twitter fa-2x"/>
                             </a>
@@ -83,7 +82,7 @@ export default function SinglePost({ data, pageContext }) {
                 </div>
                 <DiscussionEmbed shortname = {disqusShortname} config = { disqusConfig}/>
         </Layout>
-    )
+    );
 }
 
 export const postQuery = graphql`
