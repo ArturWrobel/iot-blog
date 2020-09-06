@@ -1,11 +1,11 @@
 ---
 title: "Introduction"
 date: 2020-09-03 07:10:00
-author: "Zenon Bujak"
+author: "Anna Klosowska"
 image: ../../images/abstract.jpg
 tags:
-- code
-- design
+  - code
+  - design
 ---
 
 Welcome Friends!

@@ -1,12 +1,11 @@
 ---
-title: "Let's go!"
+title: "Let's go!!!"
 date: 2020-09-06 15:00:05
-author: "Zbigniew Tarkowski"
+author: "John Smith"
 image: ../../images/keyboard.jpg
 tags:
-- code
-- cooking
-
+  - code
+  - cooking
 ---
 
 Welcome Friends!

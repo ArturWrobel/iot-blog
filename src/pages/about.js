@@ -6,10 +6,14 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const AboutPage = () => (
-  <Layout>
-    <SEO title="About" />
-    <h1>About us</h1>
-    
+  <Layout pageTitle = "About us">
+    <SEO title="About" />    
+    <p>lorem1000 dolor sit amet, consectetur adipiscing elit</p>
+    <p>lorem1000 dolor sit amet, consectetur adipiscing elit</p>
+    <p>lorem2000 dolor sit amet, consectetur adipiscing elit</p>
+    <div>
+      lorem500 dolor sit amet, consectetur adipiscing el
+    </div>
   </Layout>
 )
 
