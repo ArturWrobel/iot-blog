@@ -7,12 +7,12 @@ import { slugify } from '../util/utilityFunctions'
 export default function Post({ title, author, slug, date, body, fluid, tags }) {
     return (
         <Card>
-            <Link to={slug}>
+            <Link to={`/${slug}/`}>
                 <Img className="card-image-top" fluid={fluid} />
             </Link>
             <CardBody>
                 <CardTitle>
-                    <Link to={slug}>
+                    <Link to={`/${slug}/`}>
                         {title}
                     </Link>
                 </CardTitle>
@@ -35,7 +35,7 @@ export default function Post({ title, author, slug, date, body, fluid, tags }) {
                     )
                     )}
                 </ul>
-                <Link to={slug} className="btn btn-outline-primary float-right">
+                <Link to={`/${slug}/`} className="btn btn-outline-primary float-right">
                     Read more
                 </Link>
             </CardBody>

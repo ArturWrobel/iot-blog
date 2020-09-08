@@ -13,6 +13,13 @@ const authors = [
     google: "https://www.google.com",
     linkedin: "https://www.linkedin.com"
     },
+    {name: "Robert Glue",
+    imageUrl: "robert.jpg",
+    bio: "Robert is well known world class specialist",
+    facebook: "https://www.facebook.com",
+    google: "https://www.google.com",
+    linkedin: "https://www.linkedin.com"
+    }
 ]
 
 module.exports = authors
